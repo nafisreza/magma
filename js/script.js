@@ -379,3 +379,24 @@ end: `250% top`,
 });
 }
 canvas2()
+
+/* About Description Gsap */
+var clutter = ""
+
+document.querySelector("#about-3-desc").textContent.split(" ").forEach(function(dets){
+  clutter += `<span> ${dets} </span>`
+
+  document.querySelector("#about-3-desc").innerHTML = clutter;
+})
+
+gsap.to("#about-3>h2>span",{
+  scrollTrigger:{
+      trigger:`#about-3>h2>span`,
+      start:`top bottom`,
+      end:`bottom top`,
+      scroller:`#main`,
+      scrub:.5,
+  },
+  stagger:.2,
+  color:`#fff`
+})
