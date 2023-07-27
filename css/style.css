@@ -93,6 +93,7 @@ nav{
     justify-content: center;
     flex-direction: column;
     padding: 0px 8vw;
+    margin-bottom: -10vw;
 }
 
 #about > h2{
@@ -107,4 +108,10 @@ nav{
     margin-bottom: 2vw;
     color: #fff;
 
+}
+
+#canvas{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
