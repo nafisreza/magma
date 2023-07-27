@@ -147,3 +147,29 @@ nav{
     position: relative;
     background-color: #1137CA;
 }
+
+#about-3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #1137CA;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 8vw;
+}
+
+#about-3-heading{
+    font-weight: 300;
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+    color: #fff;
+}
+
+#about-3-desc{
+    font-weight: 400;   
+    font-size: 3.5vw;
+    color: #ffffff57;
+}
+
