@@ -86,7 +86,7 @@ nav{
 #about{
     height: 100vh;
     width: 100vw;
-    background-color: #0a3cce;
+    background-color: #133ACD;
     position: relative;
     display: flex;
     align-items: start;
@@ -96,22 +96,48 @@ nav{
     margin-bottom: -10vw;
 }
 
-#about > h2{
+#about-heading{
+    font-weight: 300;
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+    color: #fff;
+}
+
+#about-desc{
     font-weight: 400;   
     font-size: 3.5vw;
     color: #ffffff57;
 }
 
-#about > h3 {
-    font-weight: 300;
-    font-size: 1.2vw;
-    margin-bottom: 2vw;
-    color: #fff;
-
-}
 
 #canvas{
     width: 100vw;
     height: 100vh;
     position: relative;
 }
+
+#about-2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #1137CA;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 8vw;
+}
+
+#about-2-heading{
+    font-weight: 300;
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+    color: #fff;
+}
+
+#about-2-desc{
+    font-weight: 400;   
+    font-size: 3.5vw;
+    color: #ffffff57;
+}
+

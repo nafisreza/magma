@@ -33,7 +33,7 @@ ScrollTrigger.refresh();
 loco();
 
 /* About Description Gsap */
-let clutter = ""
+var clutter = ""
 
 document.querySelector("#about-desc").textContent.split(" ").forEach(function(dets){
   clutter += `<span> ${dets} </span>`
@@ -204,5 +204,4 @@ end: `250% top`,
 });
 }
 canvas()
-
 
