@@ -32,3 +32,24 @@ ScrollTrigger.refresh();
 }
 loco();
 
+/* About Description Gsap */
+let clutter = ""
+
+document.querySelector("#about-desc").textContent.split(" ").forEach(function(dets){
+  clutter += `<span> ${dets} </span>`
+
+  document.querySelector("#about-desc").innerHTML = clutter;
+})
+
+gsap.to("#about>h2>span",{
+  scrollTrigger:{
+      trigger:`#about>h2>span`,
+      start:`top bottom`,
+      end:`bottom top`,
+      scroller:`#main`,
+      scrub:.5,
+  },
+  stagger:.2,
+  color:`#fff`
+})
+
