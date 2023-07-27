@@ -205,3 +205,23 @@ end: `250% top`,
 }
 canvas()
 
+/* About Description Gsap */
+var clutter = ""
+
+document.querySelector("#about-2-desc").textContent.split(" ").forEach(function(dets){
+  clutter += `<span> ${dets} </span>`
+
+  document.querySelector("#about-2-desc").innerHTML = clutter;
+})
+
+gsap.to("#about-2>h2>span",{
+  scrollTrigger:{
+      trigger:`#about-2>h2>span`,
+      start:`top bottom`,
+      end:`bottom top`,
+      scroller:`#main`,
+      scrub:.5,
+  },
+  stagger:.2,
+  color:`#fff`
+})
