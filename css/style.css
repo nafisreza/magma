@@ -10,6 +10,7 @@ html,body{
     height: 100%;
     width: 100%;
     font-family: 'Jost', sans-serif;
+    background-color: #0340D5;
 }
 
 #main{
@@ -277,3 +278,28 @@ nav{
     height: 50%;
 }
 
+#about-6{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #0340D5;
+}
+
+.about-6-text{
+    position: relative;
+    width: 50%;
+    left: 40%;
+    margin-bottom: 4vw;
+}
+
+.about-6-text>h2{
+    color: #fff;
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+
+.about-6-text>p{
+    color: #ffffffb6;
+    font-size: 1.5vw;
+    font-weight: 300;
+}
