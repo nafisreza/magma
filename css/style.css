@@ -210,3 +210,39 @@ nav{
     justify-content: center;
     margin-top: 50%;
 }
+
+#about-4{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    background-color: #0340D5;
+}
+
+#about-4-bottom{
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+#about-4-bottom>h2{
+    font-weight: 400;
+    font-size: 5.5vw;
+}
+
+#about-4-bottom>button{
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: none;
+    color: #0b48ed;
+    font-size: 1vw;
+    font-family: Jost;
+}
+
+#about-4>video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+}
