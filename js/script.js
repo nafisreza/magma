@@ -622,3 +622,28 @@ end: `250% top`,
 });
 }
 canvas3()
+
+/* Gsap for circle animation */
+gsap.to("#circle",{
+  scrollTrigger:{
+    trigger:`#circle`,
+    start:`top center`,
+    end:`bottom top`,
+    scroller:`#main`,
+    scrub:.5
+  },
+  scale:3.5
+})
+
+
+
+gsap.to("#circle-inner",{
+  scrollTrigger:{
+    trigger:`#circle-inner`,
+    start:`top center`,
+    end:`bottom top`,
+    scroller:`#main`,
+    scrub:.5
+  },
+  backgroundColor : `#0a3bce91`,
+})
