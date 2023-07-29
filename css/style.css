@@ -246,3 +246,34 @@ nav{
     height: 100vh;
     object-fit: contain;
 }
+
+#about-5{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #0340D5;
+    display: flex;
+    padding: 10% 0;
+}
+
+.left-5{
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+
+.left-5>h2{
+    color:#fff;
+    position: absolute;
+    right: 10%;
+    font-size: 6vw;
+    line-height: 1;
+    font-weight: 300;
+}
+
+.right-5{
+    position: relative;
+    width: 60%;
+    height: 50%;
+}
+
